@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>class-04</title>
+
+	<style>
+         .myDiv {border: 5px outset red;
+  				background-color: lightblue;    
+ 				text-align: center;}
+	</style>
+</head>
+<body>
+	<img src="images/ss.jpg" width="200px" height="150px" alt="Shikhbe Shobai">
+
+	<a href="index.html">Home</a> 
+	<a href="pages/about/about.html">About</a>
+
+	<p> Changes your life with Shikhbe Shobai </p>
+	<blockquote>Shikhbe Shobai teaches you the skills you need to thrive and earn online - now and in the future.</blockquote>
+
+	<button type="button" onclick="alert">Courses</button> <br> <br>
+
+	<div class="myDiv">
+		<h2>Shikhbe Shobai</h2>
+		<p>Skill learning platform</p>
+	</div>
+
+	<dl>
+		<dt>HTML</dt>
+		<dd><i>Hypertext Markup Language</i></dd>
+		<dt>CSS</dt>
+		<dd><em>Cascading Style Sheet</em></dd>
+		<dt>JS</dt>
+		<dd><cite>JavaScript</cite></dd>
+	</dl>
+
+	<h2>Fieldest element</h2>
+	<form action="/action_page.php">
+		<fieldset>
+			<legend>Personal information</legend>
+			<label for="fname">First Name: </label>
+			<input type="text" id="fname" name="fname"><br><br>
+			<label for="lname">Last Name: </label>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="email">Email: </label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="number"> Phone Number: </label>
+			<input type="number" id="number" name="number"><br><br>
+			<label for="birthday">Date of birth: </label>
+			<input type="date" id="birthday" name="birthday"><br><br>
+			<input type="submit" value="submit">
+		</fieldset>
+	</form>
+
+	
+
+	<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+	<hr>
+
+	<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+	<hr>
+
+	<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+	<h2>This is iframe</h2>
+	<iframe src="https://shikhbeshobai.com/" title="Shikhbe Shobai"></iframe> <br><br>
+
+	<label for="disk_c">Disk usage C:</label>
+	<meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+
+	<label for="disk_d">Disk usage D:</label>
+	<meter id="disk_d" value="0.6">60%</meter>
+
+	<nav>
+		<a href="/html/">HTML</a> |
+		<a href="/css/">CSS</a> |
+		<a href="/js/">JavaScript</a> |
+		<a href="/python/">Python</a>
+	</nav>
+
+	<object data="images/ss.jpg" width="300" height="200"></object><br><br>
+
+	<ol>
+		<li>Tea</li>
+		<li>Milk</li>
+		<li>Coffee</li>
+	</ol>
+	<ul>
+		<li>Mobile</li>
+		<li>Laptop</li>
+		<li>Smartwatch</li>
+	</ul>
+
+	<form action="/action_page.php">
+		<label for="cars">Choose a car: </label>
+		<select name="cars" id="cars">
+			<optgroup label="Swedish Cars:">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+			</optgroup>
+			<optgroup label="German Cars: ">
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</optgroup>
+		</select><br><br>
+
+		<input type="submit" value="Submit">
+
+	</form> <br><br>
+
+	<label for="file">Downloading progress:</label>
+		<progress id="file" value="65" max="100"> 65% </progress>
+
+
+
+
+
+
+</body>
+</html>
